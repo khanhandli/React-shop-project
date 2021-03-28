@@ -1,0 +1,34 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #0d1117 !important;
+  color: #c9d1d9 !important;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  cursor: pointer;
+}
+
+
+.MuiAppBar-colorPrimary.custom-navbar{background-color:#121212}.MuiAppBar-colorPrimary.custom-navbar>div>div{padding:0}.basket-wrapper{flex-grow:1;justify-content:flex-end;display:flex}.custom-navbar .custom-title{display:flex}.custom-navbar .custom-title .logo{width:100px;height:100px}.basket-wrapper .custom-basket{font-size:45px;color:#bb86fc}.basket-wrapper strong{color:#bb86fc}.footer{width:100%;padding:10px;height:120px;display:flex;justify-content:center;align-items:center;font-size:18px;background-image:linear-gradient(to bottom right,#121212,#3d4a5d)}.MuiCard-root.custom-card{background-color:#21262d;color:#c9d1d9;transition:all .5s ease-in-out}.MuiCard-root.custom-card a{color:#c9d1d9;display:block;position:relative}.MuiCard-root.custom-card a h3{left:0;top:0;opacity:0;width:100%;height:100%;display:flex;color:#03dac5;font-size:30px;position:absolute;justify-content:center;align-items:center;background-color:rgba(0,0,0,.7);transition:opacity .3s ease-in}.MuiCard-root.custom-card:hover{transform:scale(1.05);box-shadow:0 0 10px 5px #03dac5}.MuiCard-root.custom-card:hover a h3{opacity:1}.custom-card .content{padding-bottom:0}.custom-card .title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.custom-card .card-image{padding:70px 70px 0}.custom-card p{color:#c9d1d9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.custom-card .price{margin-top:10px;color:#03dac5}.custom-card .basket-item-price{color:#03dac5;margin-bottom:0}.actions-content{display:flex}.actions-content h2{flex-grow:1}.custom-card .custom-button{color:#03dac5}.custom-card .custom-button:hover{background-color:#bb86fc;color:#c9d1d9}.custom-card .custom-button svg{margin-right:10px}.custom-card .increase-product-quantity{color:#03dac5;border-color:#03dac5}.spinner{top:0;left:0;width:100%;height:100%;display:flex;z-index:999;justify-content:center;align-items:center;position:fixed;background-color:#000}.spinner>div{color:#c9d1d9}.banner{padding-top:180px;width:100%;height:100vh;display:flex;background-color:#21262d;background-image:linear-gradient(to bottom right,#3d4a5d,#3d4a5d,#bb86fc)}.banner,.banner .brand,.banner>div>div{align-items:center}.banner .brand{display:flex}.banner .brand img{width:100%}.banner .title{font-size:45px;margin-bottom:20px;font-family:"Roboto",sans-serif}.banner a.shopping-button{color:#000;background-color:#03dac5}@media (min-width:800px){.banner .title{font-size:65px}}#products{padding-top:100px;padding-bottom:30px}#products .contents{padding-bottom:20px}#products .contents .headline{padding-bottom:20px;padding-top:20px}#basket{margin-top:120px;padding-bottom:30px}#basket .MuiButton-containedSecondary{color:#0d1117}.actions{margin-top:20px}.actions a{color:#000;margin-left:15px;background-color:#03dac5}.actions a:hover{background-color:#22c5b5}.basket-banner{padding-top:150px;width:100%;height:100vh;display:flex;background-color:#21262d;background-image:linear-gradient(to bottom right,#121212,#3d4a5d)}.basket-banner,.basket-banner>div>div{align-items:center}.basket-banner .brand{display:flex;align-items:center}.basket-banner .brand svg{width:100%;font-size:220px}.basket-banner .title{font-size:45px;margin-bottom:20px;font-family:"Roboto",sans-serif}.basket-banner a.shopping-button{color:#000;background-color:#03dac5}.checkout{margin-top:150px;padding-bottom:15px}.checkout .paper{max-width:600px;padding:20px 15px;margin:0 auto;background-color:#c9d1d9}.checkout .paper h6{margin:20px 0}.checkout .paper .actions.payment-actions{margin-top:25px}.checkout .paper .actions{margin-top:15px;display:flex;justify-content:space-between}.checkout .paper .actions a{margin-right:15px;margin-left:0}.checkout .paper .stepper{background-color:#c8d1d9}.products-spinner{display:flex;justify-content:center;margin:40px 0}.confirmation h5{margin:20px 0}.confirmation a{color:#000;background-color:#03dac5}.MuiContainer-root.product-view{height:80vh;display:flex;align-items:center;margin:150px 0 100px}.product-view .image-wrapper img{width:100%}.product-view .text{color:#fff}.product-view .text h2{font-size:30px}.product-view .text h3,.product-view .text span h1{font-size:20px;font-weight:300}.product-view .text h3{margin-bottom:20px}.product-view .text .quantity{margin-bottom:5px}.MuiContainer-root.product-view .custom-button{color:#000;background-color:#bb86fc}.MuiContainer-root.product-view .custom-button:hover{color:#c9d1d9}.MuiContainer-root.product-view .custom-button svg{margin-right:10px}.MuiContainer-root.product-view .increase-product-quantity{background-color:#03dac5;border-color:#03dac5}.product-view .MuiGrid-root .MuiGrid-item{padding:5px 15px}@media (min-width:960px){.MuiContainer-root.product-view{height:88vh;margin:40px 0 0}}
+/*# sourceMappingURL=main.79233dc4.chunk.css.map */ 
