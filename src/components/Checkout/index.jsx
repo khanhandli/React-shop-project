@@ -12,7 +12,6 @@ import { useHistory } from "react-router-dom";
 import { commerce } from "../../lib/commerce";
 import { renderRelatedComponent } from "./helpers";
 import "./style.css";
-import CheckoutForm from "./CheckoutForm";
 
 const steps = ["order-address", "order-details", "order-payment"];
 
