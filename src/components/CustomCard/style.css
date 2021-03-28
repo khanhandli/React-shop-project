@@ -1,0 +1,5 @@
+.MuiCard-root.custom-card a {
+    color: #c9d1d9;
+    display: block;
+    position: relative;
+}
