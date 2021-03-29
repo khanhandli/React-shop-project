@@ -8,13 +8,14 @@ import {
     Button,
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const CustomCard = ({
     basket,
     product,
     addProduct,
+    categoryName,
     updateProduct,
     RemoveItemFromBasket,
 }) => {
@@ -29,6 +30,9 @@ const CustomCard = ({
                         className="card-image"
                         image={product.media.source}
                         title="Contemplative Reptile"
+                        style={{
+                            height: categoryName === "Smartphones" ? "440px" : "",
+                        }}
                     />
                     <CardContent className="content">
                         <Typography
@@ -41,7 +45,7 @@ const CustomCard = ({
                         </Typography>
                     </CardContent>
                 </CardActionArea>
-                <Typography variant="h3" >Xem</Typography>
+                <Typography variant="h3">View</Typography>
             </Link>
             {basket && (
                 <CardActions>
@@ -87,7 +91,7 @@ const CustomCard = ({
                                 RemoveItemFromBasket(product.id);
                             }}
                         >
-                            Xóa
+                            Remove
               </Button>
                         <>
                             <Button

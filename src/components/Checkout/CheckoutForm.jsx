@@ -25,7 +25,7 @@ const CheckoutForm = ({
                     fullWidth
                     id="first-name"
                     name="firstName"
-                    label="Họ"
+                    label="First Name"
                     value={user.firstName}
                     onChange={handleChange}
                 />
@@ -36,7 +36,7 @@ const CheckoutForm = ({
                     fullWidth
                     id="first-name"
                     name="lastName"
-                    label="Tên"
+                    label="First Name"
                     value={user.lastName}
                     onChange={handleChange}
                 />
@@ -60,7 +60,7 @@ const CheckoutForm = ({
                     id="address"
                     name="address"
                     value={user.address}
-                    label="Địa chỉ"
+                    label="Address line 1"
                     onChange={handleChange}
                 />
             </Grid>
@@ -70,7 +70,7 @@ const CheckoutForm = ({
                     fullWidth
                     id="city"
                     name="city"
-                    label="Thành Phố"
+                    label="City"
                     value={user.city}
                     onChange={handleChange}
                 />
@@ -83,7 +83,7 @@ const CheckoutForm = ({
                     name="postCode"
                     value={user.postCode}
                     onChange={handleChange}
-                    label="Mã bưu điện"
+                    label="Zip / Postal code"
                 />
             </Grid>
 
@@ -146,7 +146,7 @@ const CheckoutForm = ({
                     >
                         {user.shippingOptions.map((option) => (
                             <MenuItem key={option.id} value={option.id}>
-                                {`${option.description} - (${option.price.formatted_with_code})`}
+                                {`Per product - (${option.price.formatted_with_symbol})`}
                             </MenuItem>
                         ))}
                     </Select>

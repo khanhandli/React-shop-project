@@ -44,6 +44,9 @@ const Checkout = ({ basketData, orderInfo, orderError, handleCheckout }) => {
     const [bookingStep, setBookingStep] = useState("order-address");
     const [checkoutData, setCheckoutData] = useState("");
 
+    const [totalPrice, setTotalPrice] = useState("");
+    const [totalPriceWithCurrency, setTotalPriceWithCurrency] = useState("");
+
     const previousShippingCountry = usePreviousState(user.shippingCountry);
     const previousShippingSubdivision = usePreviousState(
         user.shippingSubdivision
@@ -213,7 +216,7 @@ const Checkout = ({ basketData, orderInfo, orderError, handleCheckout }) => {
                 <Paper className="paper" elevation={3}>
                     <Typography align="center" variant="h5" gutterBottom>
                         Checkout
-                    </Typography>
+          </Typography>
                     {bookingStep !== "confirmation" && (
                         <Stepper
                             className="stepper"
@@ -229,21 +232,22 @@ const Checkout = ({ basketData, orderInfo, orderError, handleCheckout }) => {
                     {renderRelatedComponent({
                         user,
                         orderInfo,
+                        totalPrice,
                         orderError,
                         bookingStep,
                         handleChange,
                         handleSubmit,
                         checkoutData,
+                        setTotalPrice,
                         handleBackStep,
                         handleNextStep,
                         handleCheckout,
                         handleSelectChange,
+                        totalPriceWithCurrency,
+                        setTotalPriceWithCurrency,
                     })}
                 </Paper>
             </Container>
-            {/* <CheckoutForm user={user} handleChange={handleChange} handleSelectChange={handleSelectChange}
-                handleSubmit={handleSubmit} handleNextStep={handleNextStep} handleBackStep={handleBackStep}
-            /> */}
         </div>
     );
 };
